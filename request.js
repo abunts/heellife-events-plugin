@@ -35,7 +35,7 @@ async function renderAPI() {
 
     });
     var dataScienceEvents = await infoArray.filter((event) => {
-        return event.description.includes('Russian'); //case sensitive
+        return event.description.includes('data science'); //case sensitive
     });
     //writing data to JSON file
     const fs = require('fs');
